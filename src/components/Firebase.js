@@ -4,7 +4,7 @@ import "firebase/compat/firestore";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDz1CksYF-ig7PJ_zTAUUusdRWAqjyZeb0",
+    apiKey: "process.env.REACT_APP_FIREBASE_API_KEY",
     authDomain: "cognitive-companion.firebaseapp.com",
     projectId: "cognitive-companion",
     storageBucket: "cognitive-companion.appspot.com",
